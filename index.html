@@ -626,7 +626,7 @@ function showOutput() {
 function sendEmail() {
   var body = document.getElementById("eliasBox").value.trim();
   var subject = "S&T signal — " + selectedBU + " client";
-  window.location.href = "mailto:e.hassing@digital-power.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body + "\n\n—\nSent via Digital Power S&T Signal Tool");
+  window.location.href = "mailto:elias.hassing@digital-power.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body + "\n\n—\nSent via Digital Power S&T Signal Tool");
 }
 
 function doCopy(boxId, btnId) {
